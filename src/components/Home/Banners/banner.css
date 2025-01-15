@@ -1,0 +1,15 @@
+.custom-swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #03217b;
+  opacity: 0.7;
+  border-radius: 50%;
+  margin: 0 8px;
+  transition: transform 0.5s, background-color 0.5s;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #09267e;
+  transform: scale(1.4);
+  opacity: 1;
+}
